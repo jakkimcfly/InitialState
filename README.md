@@ -1,6 +1,6 @@
 # InitialState
 
-InitialState is the starter Wordpress theme. I've carefully constructed the most clean and useful theme possible for designers and web developers to use as a base to build websites for clients or to build completely custom themes from scratch.
+InitialState is the starter WordPress theme. I've carefully constructed the most clean and useful theme possible for designers and web developers to use as a base to build websites for clients or to build completely custom themes from scratch.
 For support and suggestions, go to: https://jakkimcfly.github.io or https://github.com/jakkimcfly/InitialState.
 
 If you're creating your own theme or client project, open up all files and do a "Find and Replace All in All Files" on the word "initialstate" with your own slug and prefix.
