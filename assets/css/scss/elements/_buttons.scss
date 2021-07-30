@@ -1,0 +1,16 @@
+button, .button {
+    cursor: pointer;
+    position: relative;
+    font-size: rem(18);
+    font-weight: bold;
+    line-height: 1;
+    white-space: nowrap;
+    color: $color__button-text;
+    background: $color__button;
+    padding: 16px 32px;
+    width: max-content;
+    transition: all $button_transition ease;
+    &:hover {
+        color: $color__button-hover;
+    }
+}

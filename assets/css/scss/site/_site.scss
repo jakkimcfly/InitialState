@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {    
+    font-size: $font__main-size;
+}
+
+body {
+    font-family: $font__main;
+    font-size: 1em;
+    color: $color__text-main;
+    line-height: $font__main-line-height;
+    font-weight: $font__main-weight;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: $color__background-body;
+    @include flex($direction: column);
+    min-height: 100vh;
+}
+img {
+    width: 100%;
+}
+
+@import "header";
+@import "footer";
+
+/*--------------------------------------------------------------
+# Other styles
+--------------------------------------------------------------*/
+
+//Breadcrumbs
+#breadcrumbs {
+    padding: rem(28px) 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}

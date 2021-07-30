@@ -1,0 +1,9 @@
+//@include font-face("OpenSans", "../fonts/OpenSans/opensansItalic", 400, italic);
+
+@import "headings";
+
+p {
+    margin: 0;
+    color: $color__text-light;
+}
+

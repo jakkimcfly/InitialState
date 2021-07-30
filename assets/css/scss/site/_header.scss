@@ -1,0 +1,51 @@
+#site-header {
+    position: sticky;
+    top: 0;
+    z-index: z("site-header");
+    width: 100%;
+    background: $color__background-header;
+    padding: 1.5rem 0;
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }  
+}
+
+// Custom logo
+.site-logo{
+    margin-right: 1rem;
+    .custom-logo-link{
+        display: flex;
+        max-height: 50px;
+        img {
+            width: auto;
+            max-height: 50px;
+        }
+    }
+}
+
+// Site branding.(title and description)
+.branding {
+    @include flex($direction: column);
+    flex-grow: 1;
+}
+.site-title {
+    font-size: rem(24px);
+    font-weight: 500;
+}
+.site-description {
+    color: $color__text-light;
+}
+// Primary menu
+#primary-menu {
+    @include flex();
+    ul {
+        display: flex;
+        font-size: rem(18px);
+        font-weight: 500;
+        li:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+}

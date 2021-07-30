@@ -1,0 +1,6 @@
+input, textarea {
+    padding: 12px 18px;
+    font-size: rem(18);
+    @include placeholder(rgba(0, 0, 0, 0.5));
+    @include placeholder-focus(transparent);
+}

@@ -1,0 +1,32 @@
+#site-footer {
+    @include flex($direction: column);
+    background: $color__background-footer;
+    min-height: 320px;
+    padding-top: 3rem;
+    >.container{
+        flex-grow: 1;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+// Footer menu
+#footer-menu {
+
+}
+
+.site-info{
+    display: flex;
+    .site-logo{
+        margin-right: 1rem;
+    }
+}
+// Copyright
+#copyright {
+    background: rgb(29, 29, 29);
+    color: $color__text-light;
+    padding: 1rem 0;
+    .container{
+        align-items: center;
+    }
+}

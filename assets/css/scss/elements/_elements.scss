@@ -1,0 +1,33 @@
+button, input, textarea {
+    outline: none;
+    border: none;
+}
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+a {
+    color: $color__link;
+    text-decoration: none;
+    &:hover{
+        color: $color__link-hover;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Lists
+--------------------------------------------------------------*/
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+
+
+@import "buttons";
+@import "forms";
